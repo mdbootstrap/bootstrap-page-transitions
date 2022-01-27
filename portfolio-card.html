@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-page-transitions.min.css" />
+</head>
+
+<body>
+  <!-- Start your project here-->
+
+  <style>
+    .eyes {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+    }
+
+    .eye {
+      width: 240px;
+      height: 120px;
+      background: #fff;
+      display: inline-block;
+      margin: 40px;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ball {
+      width: 50px;
+      height: 50px;
+      background: #000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      border: 10px solid #333;
+    }
+  </style>
+  <div class="container my-5">
+
+    <section>
+      
+      <div class="card rounded mb-4">
+        
+        <div class="row">
+
+          <div class="col-md-6">
+            <img class="img-fluid rounded rounded-left" src="https://mdbootstrap.com/img/Photos/Vertical/7.jpg" alt="project image">
+          </div>
+
+          <div class="col-md-6 p-5 align-self-center">
+
+            <h5 class="font-weight-normal mb-3" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000">Project detail</h5>
+
+            <p class="text-muted" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">Out or geared it but to best up samples the for she phase of copy would do in divine
+              of taken and the take medical or upper at him in the logbook were, we price his mostly to commas.</p>
+
+            <ul class="list-unstyled font-small mt-5 mb-0">
+              <li>
+                <p class="text-uppercase mb-2" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Client</strong></p>
+                <p class="text-muted mb-4" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">Envato Inc.</p>
+              </li>
+
+              <li>
+                <p class="text-uppercase mb-2" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Date</strong></p>
+                <p class="text-muted mb-4" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">June 27, 2019</p>
+              </li>
+
+              <li>
+                <p class="text-uppercase mb-2" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Skills</strong></p>
+                <p class="text-muted mb-4" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">Design, HTML, CSS, Javascript</p>
+              </li>
+
+              <li>
+                <p class="text-uppercase mb-2" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Address</strong></p>
+                <a href="https://mdbootstrap.com/docs/jquery/design-blocks/" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">MDBootstrap</a>
+              </li>
+
+              <li>
+                <p class="text-uppercase mt-4 mb-2" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Share</strong></p>
+                <div class="d-flex justify-content-start" data-mdb-toggle="animation"
+                    data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">
+                  <a class="text-muted pe-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="text-muted pe-3" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="text-muted pe-3" href="#"><i class="fab fa-instagram"></i></a>
+                  <a class="text-muted" href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <!-- Custom scripts -->
+  <script>
+    const balls = document.getElementsByClassName("ball");
+    document.onmousemove = function() {
+      let x = event.clientX * 100 / window.innerWidth + "%";
+      let y = event.clientY * 100 / window.innerHeight + "%";
+      // event.cilentX => get the horizontal coordinate of the mouse
+      // event.cilentY => get the vertical coordinate of the mouse
+      // window.innerWidth => get the browser width
+      // window.innerHeight => get the browser height
+
+      for(let i = 0; i < 2; i++) {
+        balls[i].style.left = x;
+        balls[i].style.top = y;
+        balls[i].style.transform = "translate(-"+x+", -"+y+")";
+      }
+    }
+  </script>
+
+</body>
+
+</html>

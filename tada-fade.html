@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-page-transitions.min.css" />
+</head>
+
+<body>
+  <!-- Start your project here-->
+
+  <style>
+    body {
+      background-color: #f5f7fa;
+    }
+
+    .blockquote-custom {
+      position: relative;
+      font-size: 1.1rem;
+    }
+
+    .blockquote-custom-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: -40px;
+      left: 19px;
+    }
+
+    .card.panels-card .hour {
+      font-size: 0.8rem;
+      margin-top: 0.3rem;
+    }
+  </style>
+  <div class="container">
+    <section class="my-5">
+      <div class="d-flex justify-content-center mx-auto row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote blockquote-custom bg-white px-3 pt-4">
+                <div class="blockquote-custom-icon bg-info shadow-1-strong"
+                  style="margin-right: .75rem; animation-iteration-count: infinite;" data-mdb-toggle="animation"
+                  data-mdb-animation-start="onLoad" data-mdb-animation="tada" data-mdb-animation-duration="1000">
+                  <i class="fa fa-quote-left text-white"></i>
+                </div>
+                <p class="mb-0 mt-2 font-italic">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  <a href="#" class="text-info">@consequat</a>."
+                </p>
+                <footer class="blockquote-footer pt-4 mt-4 border-top">
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card panels-card">
+            <div class="rounded-top" style="background-color: #e0e0e0;">
+              <ul class="list-inline float-end my-0 py-1 pe-3">
+                <li class="list-inline-item">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </li>
+              </ul>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between z-depth-1-bottom px-3"
+              style="background-color: #fafafa;">
+              <div>
+                <ul class="list-inline my-2 py-1">
+                  <li class="list-inline-item">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                  </li>
+                  <li class="list-inline-item font-weight-bold text-uppercase">
+                    weather
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="list-inline my-2 py-1">
+                  <li class="list-inline-item">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <i class="fas fa-ellipsis-v ps-3" aria-hidden="true"></i>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="card-body rounded-bottom text-dark" style="background-color: #fafafa;">
+              <div class="row">
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #e0e0e0;"
+                    data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-left"
+                    data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-cloud fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">15&deg;</p>
+                        <p class="mb-0 hour">12:15 PM</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">San Francisco</h6>
+                      <p class="mb-0">Cloudy</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #ffcc80;" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-right"
+                    data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-sun fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">23&deg;</p>
+                        <p class="mb-0 hour">3:25 PM</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">New York City</h6>
+                      <p class="mb-0">Sunny</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #9fa8da;" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-left"
+                    data-mdb-animation-duration="1000" data-mdb-animation-delay="400">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-tint fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">10&deg;</p>
+                        <p class="mb-0 hour">10:30 AM</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">Seattle</h6>
+                      <p class="mb-0">Light rain</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #e0e0e0;" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-right"
+                    data-mdb-animation-duration="1000" data-mdb-animation-delay="400">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-cloud fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">14&deg;</p>
+                        <p class="mb-0 hour">8:10 PM</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">Milwaukee</h6>
+                      <p class="mb-0">Cloudy</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #ffcc80;" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-left"
+                    data-mdb-animation-duration="1000" data-mdb-animation-delay="600">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-sun fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">25&deg;</p>
+                        <p class="mb-0 hour">1:35 PM</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">Honolulu</h6>
+                      <p class="mb-0">Sunny</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 p-1">
+                  <div class="card indigo text-white" style="background-color: #3f51b5;" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-right"
+                    data-mdb-animation-duration="1000" data-mdb-animation-duration="600">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-umbrella fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">5&deg;</p>
+                        <p class="mb-0 hour">7:00 AM</p>
+                      </div>
+                    </div>
+                    <hr class="hr-light">
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">Anchorage</h6>
+                      <p class="mb-0">Heavy rain</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
