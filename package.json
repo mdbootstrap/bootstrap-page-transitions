@@ -1,25 +1,26 @@
 {
-  "name": "bootstrap-avatars",
-  "version": "1.0.4",
-  "description": "Responsive Avatars built with Bootstrap 5. Various templates like a circle avatar, square, inside the navbar, carousel, as a testimonial, profile and many more.",
-  "main": "profile.html",
+  "name": "bootstrap-page-transitions",
+  "version": "1.0.0",
+  "description": "Stunning collection of Page transitions built with the newest Bootstrap 5. Transitions on scroll, animations on click, fading animations.",
+  "main": "portfolio-card.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdbootstrap/bootstrap-avatars.git"
+    "url": "git+https://github.com/mdbootstrap/bootstrap-page-transitions.git"
   },
   "keywords": [
     "bootstrap",
-    "avatar",
+    "animation",
     "bootstrap5",
-    "circle-image-view"
+    "page-transitions",
+    "bootstrap5-animations"
   ],
   "author": "mdbootstrap",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mdbootstrap/bootstrap-avatars/issues"
+    "url": "https://github.com/mdbootstrap/bootstrap-page-transitions/issues"
   },
-  "homepage": "https://mdbootstrap.com/docs/standard/extended/avatar/"
+  "homepage": "https://mdbootstrap.com/docs/standard/extended/page-transitions/"
 }
